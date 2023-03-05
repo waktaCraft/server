@@ -1,0 +1,22 @@
+{
+  "name": "waktacraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon --watch src/ src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@cgaren:waktaCraft/server.git"
+  },
+  "author": "cgaren",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "soket.io": "^0.0.1-security"
+  }
+}
